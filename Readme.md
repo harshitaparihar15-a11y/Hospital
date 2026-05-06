@@ -66,7 +66,7 @@ The project also includes a business-style dashboard view that turns the raw dat
 - readmissions within 30 days at `11.16%`
 - late readmissions after 30 days at `34.93%`
 - emergency and inpatient history as strong utilization signals
-- age-group variation in readmission risk
+- age-group variation in readmission risk: Highest at 80-90 group
 - insulin change behavior and specialty-level performance patterns
 
 ### Why This Matters
@@ -238,7 +238,7 @@ df[["time_in_hospital", "num_medications", "number_diagnoses"]].describe()
 
 ## Why This Project Stands Out
 
-This repository is intentionally simple in structure and strong in analytical value. It presents a real-world healthcare dataset with enough scale, feature richness, and business relevance to support:
+This repository is intentionally simple in structure and strong in analytical value. It presents a real-world healthcare dataset with enough scale, feature richness, and business relevance with clinical insights to support:
 
 - executive reporting
 - exploratory data analysis
